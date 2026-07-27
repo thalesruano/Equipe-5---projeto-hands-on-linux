@@ -1,6 +1,7 @@
 // Defina os pinos de LED e LDR
 // Defina uma variável com valor máximo do LDR (4000)
 // Defina uma variável para guardar o valor atual do LED (10)
+
 int ledPin = 18;
 int ldrPin = 33;
 int ledValue = 10;
@@ -8,6 +9,7 @@ int ldrMax = 4000;
 void ledUpdate();
 int ldrGetValue();
 void processCommand(String command);
+
 
 void setup() {
     Serial.begin(9600);
